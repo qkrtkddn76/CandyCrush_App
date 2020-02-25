@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:background="#ff0000">
+            <Button
+                android:id="@+id/menuBtn"
+                android:text="메뉴(개발중)"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:id="@+id/scroll1"
+            android:layout_weight="9">
+            <!--가장바깥레이어-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!--8스테이지-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="100dp"
+                    android:gravity="center" >
+                    <Button
+                        android:id="@+id/s1_8_2"
+                        android:text="STAGE 8-2"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/s1_8_1"
+                        android:text="STAGE 8-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <!--7스테이지-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/s1_7_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:text="STAGE 7-3" />
+
+                    <Button
+                        android:id="@+id/s1_7_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:text="STAGE 7-2" />
+
+                    <Button
+                        android:id="@+id/s1_7_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="STAGE 7-1" />
+                </LinearLayout>
+                <!--6스테이지-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="100dp"
+                    android:gravity="center" >
+                    <Button
+                        android:id="@+id/s1_6_2"
+                        android:text="STAGE 6-2"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/s1_6_1"
+                        android:text="STAGE 6-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <!--5스테이지-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="100dp"
+                    android:gravity="center" >
+                    <Button
+                        android:id="@+id/s1_5_2"
+                        android:text="STAGE 5-2"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/s1_5_1"
+                        android:text="STAGE 5-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <!--4스테이지-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center" >
+                        <Button
+                            android:id="@+id/s1_4_1"
+                            android:text="STAGE 4"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content" />
+                </LinearLayout>
+                <!--3스테이지-->
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                     android:layout_height="100dp"
+                    android:gravity="center" >
+                    <Button
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/s1_3_2"
+                        android:text="STAGE 3-2"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:id="@+id/s1_3_1"
+                        android:text="STAGE 3-1"
+                        android:layout_height="wrap_content" />
+                 </LinearLayout>
+                <!--2스테이지-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="100dp"
+                    android:gravity="center" >
+                    <Button
+                        android:layout_marginRight="30dp"
+                        android:id="@+id/s1_2_2"
+                        android:text="STAGE 2-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/s1_2_1"
+                        android:text="STAGE 2-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <!--1스테이지-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="100dp"
+                    android:gravity="center" >
+                    <Button
+                        android:id="@+id/s1_1_1"
+                        android:text="STAGE 1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
